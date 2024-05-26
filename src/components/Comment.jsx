@@ -5,6 +5,7 @@ import styles from "./Comment.module.css"
 import { Avatar } from "./Avatar"
 
 export function Comment({ content, onDeleteComment }) {
+
   function handleDeleteComment() {
     onDeleteComment(content)
   }
